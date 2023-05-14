@@ -10,7 +10,7 @@ body {
   height: 100%;
   overflow: hidden;
   font-family: "Open Sans", sans-serif;
-  color: #ffffff;
+  color: #000000;
   background-image: url("/img/background.jpg");
   background-attachment: fixed;
   background-size: cover;
