@@ -2,7 +2,7 @@ var avatar = null;
 var clicked = false;
 
 var img = new Image();
-img.src = "img/avatar/idle.gif";
+img.src = "img/avatar/idle.png";
 
 function click() {
   if (clicked) {
@@ -14,7 +14,7 @@ function click() {
     avatar.classList.remove("wiggle");
   }
 
-  avatar.src = "img/avatar/clicked.gif"
+  avatar.src = "img/avatar/clicked.png"
   avatar.classList.add("clicked");
 }
 
