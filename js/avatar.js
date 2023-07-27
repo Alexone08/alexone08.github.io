@@ -14,7 +14,7 @@ function click() {
     avatar.classList.remove("wiggle");
   }
 
-  avatar.src = "img/avatar/clicked.png"
+  avatar.src = "img/avatar/clicked.gif"
   avatar.classList.add("clicked");
 }
 
