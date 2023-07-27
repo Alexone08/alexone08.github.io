@@ -2,7 +2,7 @@ var avatar = null;
 var clicked = false;
 
 var img = new Image();
-img.src = "img/avatar/idle.png";
+img.src = "img/avatar/idle.gif";
 
 function click() {
   if (clicked) {
