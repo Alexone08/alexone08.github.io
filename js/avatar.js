@@ -2,7 +2,9 @@ var avatar = null;
 var clicked = false;
 
 var img = new Image();
-img.src = "img/avatar/idle.gif";
+img.src = "img/avatar/clicked.gif";
+
+var audio = new Audio("../data/mario.wav");
 
 function click() {
   if (clicked) {
@@ -16,6 +18,7 @@ function click() {
 
   avatar.src = "img/avatar/clicked.gif"
   avatar.classList.add("clicked");
+  audio.play();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
