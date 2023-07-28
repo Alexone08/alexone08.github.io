@@ -241,16 +241,32 @@ h5 {
   background-color: #292d32;
 }
 
+.bitbucket {
+  background-color: #0747a6;
+}
+
+.reddit {
+  background-color: #ff4500;
+}
+
+.steam {
+  background-color: #171a21;
+}
+
 .twitter {
-  background-color: #20cece;
+  background-color: #1da1f2;
 }
 
 .discord {
   background-color: #7289da;
 }
 
-.senko {
-  background-color: #f39800;
+.youtube {
+  background-color: #ff0000;
+}
+
+.nyrm {
+  background-color: #5dadec;
 }
 
 
