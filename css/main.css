@@ -1,6 +1,8 @@
+/* Fontfaces */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+/* Base Styles */
 html,
 body {
   scrollbar-color: rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.2);
@@ -11,11 +13,12 @@ body {
   overflow: hidden;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  background-image: url("/img/background.png");
+  background-image: url("/img/wallpaper.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
 
+/* Text Elements */
 h1,
 h2,
 h3,
@@ -29,12 +32,13 @@ h6 {
   text-decoration: line-through;
 }
 
+/* Fontawesome */
 a svg,
 span svg {
   margin-right: 5px;
-  font-size: 1.5em;
 }
 
+/* Colours */
 a,
 h1,
 h2,
@@ -45,6 +49,7 @@ h5 {
   color: #890ed1;
 }
 
+/* Layout */
 .content {
   position: relative;
   margin: auto;
@@ -145,10 +150,19 @@ h5 {
   margin-bottom: 16px;
 }
 
-.layout section .project img {
+.layout section .project .icon {
   height: 96px;
   width: 96px;
   margin-right: 16px;
+  flex-shrink: 0;
+}
+
+.layout section .project .icon.small {
+  display: none;
+  height: 24px;
+  width: 24px;
+  margin-bottom: -4px;
+  margin-right: 8px;
   flex-shrink: 0;
 }
 
@@ -193,6 +207,11 @@ h5 {
   margin-bottom: 24px;
   background-color: rgba(58, 58, 58, 0.333);
 }
+
+.separator.invisible {
+  background-color: rgba(0,0,0,0);
+}
+
 
 /* Adjustments for small screens. */
 @media only screen and (max-width: 450px) {
@@ -278,10 +297,13 @@ h5 {
   background-color: #ff0000;
 }
 
+.senko {
+  background-color: #f39800;
+}
+
 .nyrm {
   background-color: #5dadec;
 }
-
 
 /* CSS for the avatar animation. */
 #avatar {
@@ -356,6 +378,7 @@ h5 {
   }
 }
 
+/* Label */
 .label {
   border-radius: 8px;
   color: #890ed1;

@@ -4,7 +4,7 @@ var clicked = false;
 var img = new Image();
 img.src = "img/avatar/clicked.gif";
 
-var audio = new Audio("../data/mario.wav");
+var audio = new Audio("../data/fart.wav");
 
 function click() {
   if (clicked) {
