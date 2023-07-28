@@ -196,6 +196,11 @@ h5 {
 
 /* Adjustments for small screens. */
 @media only screen and (max-width: 450px) {
+  .separator {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  
   .layout header {
     flex-direction: column;
     text-align: center;
@@ -209,15 +214,23 @@ h5 {
     display: none;
   }
 
+  .layout section .project .icon.small {
+    display: inline-block;
+  }
+
   .layout section .project .details .links {
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .layout section .project .details .links a:not(:last-child) {
+    margin-bottom: 4px;
   }
 }
 /* Only appears in Edge and IE. */
 :-ms-lang(x),
 .layout {
-  background-color: rgba(54, 54, 54, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Button */
