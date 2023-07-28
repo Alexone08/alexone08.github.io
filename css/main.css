@@ -13,7 +13,7 @@ body {
   overflow: hidden;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  background-image: url("/img/wallpaper.jpg");
+  background-image: url("/img/background.png");
   background-attachment: fixed;
   background-size: cover;
 }
