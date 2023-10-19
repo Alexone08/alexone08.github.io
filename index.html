@@ -146,6 +146,35 @@
           </div>
         </div>
 
+        <div class="separator"></div>
+
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Sistema di Supporto</title>
+      </head>
+      <body>
+          <header>
+              <h1>Contattaci per Supporto</h1>
+          </header>
+          <div class="container">
+              <form id="support-form" action="process_form.php" method="post">
+                  <div class="form-group">
+                      <label for="name">Nome:</label>
+                      <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Messaggio:</label>
+                      <textarea id="message" name="message" rows="4" required></textarea>
+                  </div>
+                  <button type="submit">Invia</button>
+              </form>
+          </div>
+      </body>
+
         <div class="separator invisible"></div>
 
         <!-- 
