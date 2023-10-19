@@ -149,30 +149,25 @@
         <div class="separator"></div>
 
         <head>
+          <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Sistema di Supporto</title>
+          <title>Support</title>
       </head>
       <body>
-          <header>
-              <h1>Contattaci per Supporto</h1>
-          </header>
           <div class="container">
-              <form id="support-form" action="process_form.php" method="post">
-                  <div class="form-group">
-                      <label for="name">Nome:</label>
-                      <input type="text" id="name" name="name" required>
-                  </div>
-                  <div class="form-group">
-                      <label for="email">Email:</label>
-                      <input type="email" id="email" name="email" required>
-                  </div>
-                  <div class="form-group">
-                      <label for="message">Messaggio:</label>
-                      <textarea id="message" name="message" rows="4" required></textarea>
-                  </div>
-                  <button type="submit">Invia</button>
+              <h1>Send A Mail</h1>
+              <form id="email-form">
+                  <label for="to">Recipients:</label>
+                  <input type="email" id="to" name="to" required>
+                  <label for="subject">Subject:</label>
+                  <input type="text" id="subject" name="subject" required>
+                  <label for="message">Messagge:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+                  <button type="submit">Send</button>
               </form>
           </div>
+      
+          <script src="/js/mail.js"></script>
       </body>
 
         <div class="separator invisible"></div>
