@@ -46,7 +46,7 @@ h3,
 h4,
 h5 {
   text-decoration: none;
-  color: #ffffff;
+  color: #890ed1;
 }
 
 /* Layout */
@@ -381,7 +381,7 @@ h5 {
 /* Label */
 .label {
   border-radius: 8px;
-  color: #ffffff;
+  color: #890ed1;
   background-color: rgba(63, 63, 63, 0.3);
   font-family: "Open Sans", sans-serif;
   font-size: 0.6em;
